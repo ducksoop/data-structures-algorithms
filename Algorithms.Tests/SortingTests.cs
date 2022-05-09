@@ -53,5 +53,11 @@ namespace Algorithms.Tests
         {
             RunTestsForSortAlgorithm(Sorting.SelectionSort);
         }
+
+        [Test]
+        public void InsertionSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.InsertionSort);
+        }
     }
 }
