@@ -32,7 +32,7 @@ namespace Algorithms.Tests
             }
         }
 
-        private void PrintOut(int[] array)
+        private static void PrintOut(int[] array)
         {
             TestContext.WriteLine("-------TRACE-------\n");
             foreach (var el in array)
@@ -58,6 +58,12 @@ namespace Algorithms.Tests
         public void InsertionSort_ValidInput_SortedOutput()
         {
             RunTestsForSortAlgorithm(Sorting.InsertionSort);
+        }
+
+        [Test]
+        public void ShellSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.ShellSort);
         }
     }
 }
