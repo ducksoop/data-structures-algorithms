@@ -71,5 +71,11 @@ namespace Algorithms.Tests
         {
             RunTestsForSortAlgorithm(Sorting.MergeSort);
         }
+
+        [Test]
+        public void QuickSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.QuickSort);
+        }
     }
 }
