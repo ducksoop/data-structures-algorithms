@@ -32,7 +32,7 @@ namespace Algorithms.Tests
             }
         }
 
-        private void PrintOut(int[] array)
+        private static void PrintOut(int[] array)
         {
             TestContext.WriteLine("-------TRACE-------\n");
             foreach (var el in array)
@@ -46,6 +46,36 @@ namespace Algorithms.Tests
         public void BubbleSort_ValidInput_SortedInput()
         {
             RunTestsForSortAlgorithm(Sorting.BubbleSort);
+        }
+
+        [Test]
+        public void SelectionSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.SelectionSort);
+        }
+
+        [Test]
+        public void InsertionSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.InsertionSort);
+        }
+
+        [Test]
+        public void ShellSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.ShellSort);
+        }
+
+        [Test]
+        public void MergeSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.MergeSort);
+        }
+
+        [Test]
+        public void QuickSort_ValidInput_SortedOutput()
+        {
+            RunTestsForSortAlgorithm(Sorting.QuickSort);
         }
     }
 }
