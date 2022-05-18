@@ -20,7 +20,7 @@
             Head = node;
 
             // shifting the former head
-            Head.Next = temp;
+            Head!.Next = temp!;
 
             Count++;
 
@@ -40,7 +40,7 @@
             if (IsEmpty)
                 Head = node;
             else
-                Tail.Next = node;
+                Tail!.Next = node!;
 
             Tail = node;
 
@@ -74,7 +74,7 @@
                     current = current?.Next;
                 }
 
-                current!.Next = null;
+                current!.Next = null!;
                 Tail = current;
             }
 
