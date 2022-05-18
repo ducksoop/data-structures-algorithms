@@ -1,6 +1,8 @@
-﻿namespace Algorithms.Lib
+﻿using System.Collections;
+
+namespace Algorithms.Lib
 {
-    public class SinglyLinkedList<T>
+    public class SinglyLinkedList<T> : IEnumerable<T>
     {
         public Node<T>? Head { get; private set; }
         public Node<T>? Tail { get; private set; }
@@ -82,5 +84,19 @@
         }
 
         public bool IsEmpty => Count == 0;
+        public IEnumerator<T> GetEnumerator()
+        {
+            Node<T>? current = Head;
+            while (current != null)
+            {
+                yield return current.Value;
+                current = current.Next;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }
