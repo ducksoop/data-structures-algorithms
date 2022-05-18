@@ -27,7 +27,7 @@ namespace Algorithms.Tests.Stacks
         {
             var stack = new ArrayStack<int>();
 
-            Assert.Throws<IndexOutOfRangeException>(() => { stack.Peek(); });
+            Assert.Throws<InvalidOperationException>(() => { stack.Peek(); });
         }
 
         [Test]
