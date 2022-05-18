@@ -1,7 +1,6 @@
-﻿using Algorithms.Lib;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace Algorithms.Tests
+namespace Algorithms.Tests.Sorting
 {
     [TestFixture]
     public class SortingTests
@@ -45,37 +44,37 @@ namespace Algorithms.Tests
         [Test]
         public void BubbleSort_ValidInput_SortedInput()
         {
-            RunTestsForSortAlgorithm(Sorting.BubbleSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.BubbleSort);
         }
 
         [Test]
         public void SelectionSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Sorting.SelectionSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.SelectionSort);
         }
 
         [Test]
         public void InsertionSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Sorting.InsertionSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.InsertionSort);
         }
 
         [Test]
         public void ShellSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Sorting.ShellSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.ShellSort);
         }
 
         [Test]
         public void MergeSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Sorting.MergeSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.MergeSort);
         }
 
         [Test]
         public void QuickSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Sorting.QuickSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.QuickSort);
         }
     }
 }
