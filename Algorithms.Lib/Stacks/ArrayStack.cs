@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Algorithms.Lib
+namespace Algorithms.Lib.Stacks
 {
     public class ArrayStack<T> : IEnumerable<T>
     {

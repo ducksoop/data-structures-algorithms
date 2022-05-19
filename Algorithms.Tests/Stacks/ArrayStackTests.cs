@@ -1,4 +1,5 @@
 ﻿using Algorithms.Lib;
+using Algorithms.Lib.Stacks;
 using NUnit.Framework;
 
 namespace Algorithms.Tests.Stacks

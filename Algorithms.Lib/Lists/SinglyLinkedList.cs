@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Algorithms.Lib
+namespace Algorithms.Lib.Lists
 {
     public class SinglyLinkedList<T> : IEnumerable<T>
     {

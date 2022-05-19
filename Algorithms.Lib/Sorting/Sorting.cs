@@ -1,4 +1,4 @@
-﻿namespace Algorithms.Lib
+﻿namespace Algorithms.Lib.Sorting
 {
     public class Sorting
     {
