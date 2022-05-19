@@ -1,4 +1,5 @@
 ﻿using Algorithms.Lib;
+using Algorithms.Lib.Lists;
 using NUnit.Framework;
 
 namespace Algorithms.Tests.Lists

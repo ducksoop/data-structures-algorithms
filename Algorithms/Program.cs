@@ -1,5 +1,6 @@
 ﻿using Algorithms;
 using Algorithms.Lib;
+using Algorithms.Lib.Stacks;
 
 var stack = new ArrayStack<int>();
 

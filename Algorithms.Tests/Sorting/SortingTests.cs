@@ -44,37 +44,37 @@ namespace Algorithms.Tests.Sorting
         [Test]
         public void BubbleSort_ValidInput_SortedInput()
         {
-            RunTestsForSortAlgorithm(Lib.Sorting.BubbleSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.Sorting.BubbleSort);
         }
 
         [Test]
         public void SelectionSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Lib.Sorting.SelectionSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.Sorting.SelectionSort);
         }
 
         [Test]
         public void InsertionSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Lib.Sorting.InsertionSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.Sorting.InsertionSort);
         }
 
         [Test]
         public void ShellSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Lib.Sorting.ShellSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.Sorting.ShellSort);
         }
 
         [Test]
         public void MergeSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Lib.Sorting.MergeSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.Sorting.MergeSort);
         }
 
         [Test]
         public void QuickSort_ValidInput_SortedOutput()
         {
-            RunTestsForSortAlgorithm(Lib.Sorting.QuickSort);
+            RunTestsForSortAlgorithm(Lib.Sorting.Sorting.QuickSort);
         }
     }
 }

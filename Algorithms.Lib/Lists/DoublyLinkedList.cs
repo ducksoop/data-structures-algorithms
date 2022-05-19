@@ -1,4 +1,4 @@
-﻿namespace Algorithms.Lib
+﻿namespace Algorithms.Lib.Lists
 {
     public class DoublyLinkedList<T>
     {
